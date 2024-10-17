@@ -30,8 +30,8 @@ void importMetalProtocols() {
     o = @protocol(MTLFunctionHandle);
     o = @protocol(MTLFunctionLog);
     o = @protocol(MTLFunctionLogDebugLocation);
-    o = @protocol(MTLFunctionStitchingAttribute);
-    o = @protocol(MTLFunctionStitchingNode);
+    // o = @protocol(MTLFunctionStitchingAttribute);
+    // o = @protocol(MTLFunctionStitchingNode);
     o = @protocol(MTLHeap);
     o = @protocol(MTLIndirectCommandBuffer);
     o = @protocol(MTLIndirectComputeCommand);
