@@ -6,7 +6,7 @@ package ffi
 
 // #cgo CFLAGS: -x objective-c -Wno-unguarded-availability-new
 // #cgo LDFLAGS: -l ffi
-// #import <ffi/ffi.h>
+// #import <ffi.h>
 // #import <stdint.h>
 // ffi_status ffi_prep_cif0(uintptr_t cif, ffi_abi abi, unsigned int nargs, uintptr_t rtype, uintptr_t atypes);
 // void ffi_call0(uintptr_t cif, void* fn, uintptr_t rvalue, uintptr_t avalue);
